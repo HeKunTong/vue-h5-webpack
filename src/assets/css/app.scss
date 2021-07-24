@@ -1,0 +1,28 @@
+#app {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 0.4rem;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+
+    .container {
+        width: 100%;
+        height: calc(100% - 1.5rem);
+    }
+}
+
+.van-tabbar {
+    height: 1.5rem !important;
+
+    .van-tabbar-item__icon {
+        font-size: 0.6rem;
+    }
+
+    .van-tabbar-item__text {
+        font-size: 0.2rem;
+    }
+}
