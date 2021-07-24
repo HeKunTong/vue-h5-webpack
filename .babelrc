@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "useBuiltIns": "usage",
+      "corejs": 3
+    }]
+  ],
+  "plugins": [
+    ["import-7", {
+      "libraryName": "vant",
+      "libraryDirectory": "es",
+      "style": true
+    }],
+    "syntax-jsx",
+    "transform-vue-jsx",
+    "@babel/plugin-transform-runtime"
+  ],
+  "comments": false
+}
